@@ -23,7 +23,7 @@ String paginaHTML() {
   html += "body{font-family:Arial}";
   html += ".msg{border-bottom:1px solid #ccc; padding:8px}";
   html += "img{";
-  html += "width:280px;";          
+  html += "width:200px;";          
   html += "border:2px solid #555;";
   html += "margin-top:6px;";
   html += "}";
