@@ -6,8 +6,8 @@
 const char* ssid = "AsusE";
 const char* password = "23011edpi";
 
-// CAMBIA ESTO PARA CADA ESP
 const char* identificador_propio = "esp-2";
+// http://esp-2.local/
 
 WebServer server(80);
 
