@@ -3,6 +3,20 @@
 #include <SPI.h>
 #include <MFRC522.h>
 
+// Pinout
+/*
+| MFRC522  | ESP32       |
+| -------- | ----------- |
+| SDA / SS | GPIO   25   |
+| SCK      | GPIO   26   |
+| MOSI     | GPIO   32   |
+| MISO     | GPIO   33   |
+| RST      | GPIO   27   |
+| 3.3V     | 3.3V        |
+| GND      | GND         |
+
+*/
+
 /* ---------- WIFI ---------- */
 const char* ssid = "AsusE";
 const char* password = "23011edpi";
